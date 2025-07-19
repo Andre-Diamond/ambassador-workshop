@@ -31,14 +31,14 @@ To communicate and coordinate, we have Cardano Foundation who provided us with a
 Furthermore, several individual discord chats help in 1:1 coordinations 
 
 ### Open a new cardano-multisig wallet to manage proposal funds
-We created a multisignature account, using the Mesh Multisig platform, to which all proposal funds are received by the Catalyst Team. 
+We created a multisignature account, using the Mesh Multisig platform, where we receive and distribute proposal funding. 
 The Wallet addr1: addr1z9hjmttg9z4t7jsvanuw4geptnd7x9n5crvltmy9ad80kfuafhxhu32dys6pvn6wlw8dav6cmp4pmtv7cc3yel9uu0nqjzs262
 
 The Multisig signers include:
 - Cardano Ambassador: Felix
 - Cardano Ambassador: Beatrice
 
-The Multisig quorum is set to 2 of 2 signers have to sign.
+The Multisig quorum is set to 2 of 2 signers.
 
 ### Submit Proposal onboarding form
 The proposal onboarding form has been submitted and is approved by the Catalyst Admin Team.
