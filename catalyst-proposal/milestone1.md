@@ -47,7 +47,7 @@ Check the Catalyst Proposal readiness tracker for confirmed onboarding form. (Co
 
 ### Submit Proposal SoM’s
 All Statements of Milestones have been submitted and approved and are accessible at:
-- https://milestones.projectcatalyst.io/projects/1300033/milestones/1
+- https://milestones.projectcatalyst.io/projects/1300033
 
 ### Confirm test transaction
 The test transaction, had been received and confirmed, you can ckeck the completion at the readiness tracker. (Column 37)
