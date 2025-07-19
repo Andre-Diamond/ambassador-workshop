@@ -45,6 +45,10 @@ The proposal onboarding form has been submitted and is approved by the Catalyst 
 Check the Catalyst Proposal readiness tracker for confirmed onboarding form. (Column 37)
 - https://docs.google.com/spreadsheets/d/1Zb_eNDp8iiXcJm7qnaogTUujyH9edQAKCu7bMqkUAWQ/edit?gid=0#gid=0 
 
+### Submit Proposal SoM’s
+All Statements of Milestones have been submitted and approved and are accessible at:
+- https://milestones.projectcatalyst.io/projects/1300033/milestones/1
+
 ### Confirm test transaction
 The test transaction, had been received and confirmed, you can ckeck the completion at the readiness tracker. (Column 37)
 - https://docs.google.com/spreadsheets/d/1Zb_eNDp8iiXcJm7qnaogTUujyH9edQAKCu7bMqkUAWQ/edit?gid=0#gid=0 
