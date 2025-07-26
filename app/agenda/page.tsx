@@ -308,8 +308,9 @@ export default function Agenda() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">Workshop Agenda</h1>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Four days of intensive learning, networking, and hands-on workshops 
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+              The Agenda will be defined by Ambassadors who will be invited to submit their own workshop topics which they want to host as speakers and presenters.
+              The exact agenda will be announced in due time.
             </p>
           </div>
 

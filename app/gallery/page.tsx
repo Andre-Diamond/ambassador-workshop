@@ -11,8 +11,8 @@ export default function Gallery() {
           
           <div className="glass-card p-8 mb-12">
             <p className="text-gray-700 text-lg leading-relaxed">
-              Here you'll find photos and videos 
-              capturing the energy, learnings and higlights of the event.
+              Here we will be sharing photos and videos once the workshop is concluded
+              The Agenda will be defined by Ambassadors who will be invited to submit their own workshop topics which they want to host as speakers and presenters.
             </p>
           </div>
 
