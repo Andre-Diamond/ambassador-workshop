@@ -46,19 +46,6 @@ npm run dev
 npm run build
 ```
 
-## Project Structure
-
-```
-├── app/
-│   ├── components/     # Reusable components
-│   ├── about/         # About page
-│   ├── contact/       # Contact page
-│   ├── globals.css    # Global styles
-│   ├── layout.tsx     # Root layout
-│   └── page.tsx       # Homepage
-├── public/            # Static assets
-└── ...config files
-```
 
 ## Contributing
 
