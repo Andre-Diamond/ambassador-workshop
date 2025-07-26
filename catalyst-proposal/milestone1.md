@@ -8,9 +8,7 @@
 
 # Milestone Report
 
-Huhuu & happy day there
-
-Since we had to go through a proposal change request, we had some heavy delays on the proposal. However, everything is set now and here we go, reporting on the successful completion of the first Milestone of this proposal.
+Huhuu & happy day there again, here the second submission of the Milestone 1 Proof of Achievement (PoA) since the first one lacked stated deliverables:
 
 ## What wanted to be achieved in this milestone:
 
@@ -30,15 +28,22 @@ To communicate and coordinate, we have Cardano Foundation who provided us with a
 
 Furthermore, several individual discord chats help in 1:1 coordinations 
 
+A Respective X Account through which event details will be made to the public has been initiated
+- https://x.com/Ambassador_work 
+
 ### Open a new cardano-multisig wallet to manage proposal funds
-We created a multisignature account, using the Mesh Multisig platform, where we receive and distribute proposal funding. 
-The Wallet addr1: addr1z9hjmttg9z4t7jsvanuw4geptnd7x9n5crvltmy9ad80kfuafhxhu32dys6pvn6wlw8dav6cmp4pmtv7cc3yel9uu0nqjzs262
+Changes to first PoA:
+- We created a multisignature account, using the Mesh Multisig platform, where we receive and distribute proposal funding. 
+- The Wallet addr1: 
+- The multisignature wallet consists of 5 signers
 
-The Multisig signers include:
-- Cardano Ambassador: Felix
-- Cardano Ambassador: Beatrice
+Multisignature signers:
+- Daniel (Cardano Ambassador) TBC
+- Felix (Cardano Ambassador) TBC
+- Hinson (Cardano Ambassador) TBC
+- Simon (Cardano Ambassador) TBC
+- Yoram (Cardano Ambassador) TBC
 
-The Multisig quorum is set to 2 of 2 signers.
 
 ### Submit Proposal onboarding form
 The proposal onboarding form has been submitted and is approved by the Catalyst Admin Team.
@@ -58,13 +63,22 @@ Received Test Tx from catalyst
 - https://cardanoscan.io/transaction/339812d4d7bc364b7ebbc90125127d6896c6f7711f9f606341a013039fd9b376
   
 ### Create and launch an event website
-We created and launched the initial Event Website where we will regularly update and add content as the project evolves.
-
+We created and launched the initial Event Website where we will regularly update and add content as the project evolves. 
+Changes to first PoA:
+- we added workshop details such as dates & location
+- we added a sign up form for Ambassadors to join
+- we added the x-account, linked at the header menu
+ 
 You can find the website at: 
 - https://ambassador-workshop.netlify.app/ 
 
 The respective open source github repository for the project where we host the code and proposal milestone reports can be found at:
 - https://github.com/Technosophorso/ambassador-workshop
 
+### And thats it...
+For this Milestone, we hope that the provided deliverables match the Milestone Reviewers acceptance criteria.
 
+Yet, notice to the Milestone Reviewers:
+- providing the exact workshop location as you requested is a deliverable of Milestone 2 since this can only come with the confimation and booking of the venue which is not a deliverable of this milestone
+- providing photos as you requested is a deliverable of Milestone 3 since we can only share photos once the event is concluded
 
