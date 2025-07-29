@@ -66,9 +66,15 @@ Received Test Tx from catalyst
 ### Create and launch an event website
 We created and launched the initial Event Website where we will regularly update and add content as the project evolves. 
 Changes to first PoA:
-- we added workshop details such as dates & location (Cant state exact location yet as the confirmation & booking of the venue is part of Milestone2)
-- we added a sign up form for Ambassadors to sign up for the workshop
-- we added the missing x-account, linked at the header menu from which we will share event details in public as soon as public information are available at Milestone 2 and 3.
+
+we added workshop details such as dates & location (Cant state exact location yet as the confirmation & booking of the venue is part of Milestone2)
+- https://ambassador-workshop.netlify.app/
+  
+we added a sign up form for Ambassadors to sign up for the workshop
+- https://forms.gle/yK48hKvESjas7w5v7
+  
+we added the missing x-account, linked at the header menu from which we will share event details in public as soon as public information are available at Milestone 2 and 3.
+- https://x.com/Ambassador_work
  
 You can find the website at: 
 - https://ambassador-workshop.netlify.app/ 
