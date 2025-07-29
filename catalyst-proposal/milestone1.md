@@ -33,7 +33,7 @@ A Respective X Account through which event details will be made to the public ha
 
 ### Open a new cardano-multisig wallet to manage proposal funds
 Changes to first PoA:
-- We created a multisignature account, using the Mesh Multisig platform, where we receive and distribute proposal funding. 
+- We created a multisignature account, using the Mesh Multisig platform where we receive and distribute proposal funding. 
 - The Wallet addr1: addr1xymgnqqlemvc5a6a6n7n3spyxr0t8264a4ys6aflcnqf77tmnylfxupxj8y36hvrnm4k5n828e8stxk3agejrjm4fh9q9anrm6
 - The multisignature wallet now consists of 5 signers
 
@@ -56,7 +56,7 @@ All Statements of Milestones have been submitted and approved and are accessible
 - https://milestones.projectcatalyst.io/projects/1300033
 
 ### Confirm test transaction
-The test transaction, had been received and confirmed, you can ckeck the completion at the readiness tracker. (Column 37)
+The test transaction, has been received and confirmed, you can check the completion at the readiness tracker. (Column 37)
 - https://docs.google.com/spreadsheets/d/1Zb_eNDp8iiXcJm7qnaogTUujyH9edQAKCu7bMqkUAWQ/edit?gid=0#gid=0 
 
 Received Test Tx from catalyst
