@@ -4,7 +4,7 @@
 |Milestone|[Milestone 1](https://milestones.projectcatalyst.io/projects/1300033/milestones/1)
 |Challenge|F13: Cardano Open: Ecosystem|
 |Milestone Budget|ADA 33,000 Ada|
-|Delivered|July 19, 2025|
+|Delivered|July 28, 2025|
 
 # Milestone Report
 
