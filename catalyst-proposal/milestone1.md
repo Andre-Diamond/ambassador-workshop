@@ -8,7 +8,7 @@
 
 # Milestone Report
 
-Huhuu & happy day there again, here the second submission of the Milestone 1 Proof of Achievement (PoA) since the first one lacked stated deliverables:
+Huhuu & happy day there again, here the second submission of the Milestone 1 Proof of Achievement (PoA) since the first one lacked a few stated deliverables as pointed out by the Milestone Reviewers. Here now the updated report...
 
 ## What wanted to be achieved in this milestone:
 
