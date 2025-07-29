@@ -34,16 +34,17 @@ A Respective X Account through which event details will be made to the public ha
 ### Open a new cardano-multisig wallet to manage proposal funds
 Changes to first PoA:
 - We created a multisignature account, using the Mesh Multisig platform, where we receive and distribute proposal funding. 
-- The Wallet addr1: 
-- The multisignature wallet consists of 5 signers
+- The Wallet addr1: addr1xymgnqqlemvc5a6a6n7n3spyxr0t8264a4ys6aflcnqf77tmnylfxupxj8y36hvrnm4k5n828e8stxk3agejrjm4fh9q9anrm6
+- The multisignature wallet now consists of 5 signers
 
 Multisignature signers:
-- Daniel (Cardano Ambassador) TBC
-- Felix (Cardano Ambassador) TBC
-- Hinson (Cardano Ambassador) TBC
-- Simon (Cardano Ambassador) TBC
-- Yoram (Cardano Ambassador) TBC
+- Felix (Cardano Ambassador) 
+- Hinson (Cardano Ambassador) 
+- Nori Nishigaya (Cardano Ambassador) 
+- Simon (Cardano Ambassador) 
+- Yoram (Cardano Ambassador) 
 
+The quorum of the multisig is set to 3/5.
 
 ### Submit Proposal onboarding form
 The proposal onboarding form has been submitted and is approved by the Catalyst Admin Team.
@@ -65,9 +66,9 @@ Received Test Tx from catalyst
 ### Create and launch an event website
 We created and launched the initial Event Website where we will regularly update and add content as the project evolves. 
 Changes to first PoA:
-- we added workshop details such as dates & location
-- we added a sign up form for Ambassadors to join
-- we added the x-account, linked at the header menu
+- we added workshop details such as dates & location (Cant state exact location yet as the confirmation & booking of the venue is part of Milestone2)
+- we added a sign up form for Ambassadors to sign up for the workshop
+- we added the missing x-account, linked at the header menu from which we will share event details in public as soon as public information are available at Milestone 2 and 3.
  
 You can find the website at: 
 - https://ambassador-workshop.netlify.app/ 
