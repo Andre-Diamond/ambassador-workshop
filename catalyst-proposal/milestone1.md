@@ -58,10 +58,6 @@ All Statements of Milestones have been submitted and approved and are accessible
 ### Confirm test transaction
 The test transaction, has been received and confirmed, you can check the completion at the readiness tracker. (Column 37)
 - https://docs.google.com/spreadsheets/d/1Zb_eNDp8iiXcJm7qnaogTUujyH9edQAKCu7bMqkUAWQ/edit?gid=0#gid=0 
-
-Received Test Tx from catalyst
-- TX id: 339812d4d7bc364b7ebbc90125127d6896c6f7711f9f606341a013039fd9b376
-- https://cardanoscan.io/transaction/339812d4d7bc364b7ebbc90125127d6896c6f7711f9f606341a013039fd9b376
   
 ### Create and launch an event website
 We created and launched the initial Event Website where we will regularly update and add content as the project evolves. 
