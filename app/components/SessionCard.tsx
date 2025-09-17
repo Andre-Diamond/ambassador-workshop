@@ -18,17 +18,17 @@ export default function SessionCard({
   host 
 }: SessionCardProps) {
   return (
-    <div className="glass-card p-6">
+    <div className="berlin-card p-6">
       <div className="flex items-center justify-between mb-4">
-        <span className="time-badge text-sm px-3 py-1 rounded-full">{time}</span>
-        <span className="text-sm text-gray-600">{category}</span>
+        <span className="time-badge text-sm px-3 py-1">{time}</span>
+        <span className="berlin-mono text-sm text-gray-600 uppercase">{category}</span>
       </div>
-      <h3 className="text-xl font-semibold text-black mb-2">{title}</h3>
-      <p className="text-gray-700 mb-3">{description}</p>
-      <div className="text-sm text-gray-600">
-        {speaker && <p>Speaker: {speaker}</p>}
-        {host && <p>Host: {host}</p>}
-        {location && <p>Location: {location}</p>}
+      <h3 className="berlin-heading text-xl text-black mb-2">{title}</h3>
+      <p className="berlin-body text-gray-700 mb-3">{description}</p>
+      <div className="berlin-mono text-sm text-gray-600 space-y-1">
+        {speaker && <p><span className="text-black font-bold">SPEAKER:</span> {speaker}</p>}
+        {host && <p><span className="text-black font-bold">HOST:</span> {host}</p>}
+        {location && <p><span className="text-black font-bold">LOCATION:</span> {location}</p>}
       </div>
     </div>
   )

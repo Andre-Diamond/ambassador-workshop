@@ -2,35 +2,35 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <header className="glass-header">
+    <header className="berlin-header">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6 min-h-[80px]">
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-bold text-black">
-              Cardano Ambassador Workshop [EUROPE]
+            <Link href="/" className="berlin-heading text-2xl text-black">
+              CARDANO AMBASSADOR WORKSHOP [EUROPE]
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-gray-700 hover:text-dark-red transition-colors">
-              Home
+            <Link href="/" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
+              HOME
             </Link>
-            <Link href="/gallery" className="text-gray-700 hover:text-dark-red transition-colors">
-              Gallery
+            <Link href="/gallery" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
+              GALLERY
             </Link>
-            <Link href="/agenda" className="text-gray-700 hover:text-dark-red transition-colors">
-              Agenda
+            <Link href="/agenda" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
+              AGENDA
             </Link>
-            <Link href="/reports-outcomes" className="text-gray-700 hover:text-dark-red transition-colors">
-              Reports & Outcomes
+            <Link href="/reports-outcomes" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
+              REPORTS
             </Link>
             
             {/* Social Media Icons */}
-            <div className="flex items-center space-x-4 ml-6 pl-6 border-l border-gray-300">
+            <div className="flex items-center space-x-4 ml-6 pl-6 border-l-4 border-black">
               <Link 
                 href="https://x.com/Ambassador_work" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-700 hover:text-dark-red transition-colors"
+                className="text-black hover:bg-black hover:text-white transition-all duration-200 p-2 border-2 border-black"
                 aria-label="Follow on Twitter"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -42,7 +42,7 @@ export default function Header() {
                 href="https://github.com/Technosophorso/ambassador-workshop" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-700 hover:text-dark-red transition-colors"
+                className="text-black hover:bg-black hover:text-white transition-all duration-200 p-2 border-2 border-black"
                 aria-label="View on GitHub"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
