@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Cardano Ambassador Workshop [EUROPE]',
-  description: 'Learn about Cardano blockchain technology and become a certified Cardano Ambassador',
+  description: 'Cardano Ambassador Workshop Berlin, a Summit Pre & Side event',
 }
 
 export default function RootLayout({

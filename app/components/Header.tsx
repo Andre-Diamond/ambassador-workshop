@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Header() {
   return (
@@ -6,8 +7,14 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-6 min-h-[80px]">
           <div className="flex items-center">
-            <Link href="/" className="berlin-heading text-2xl text-black">
-              CARDANO AMBASSADOR WORKSHOP [EUROPE]
+            <Link href="https://cardano.org/ambassadors" target="_blank" rel="noopener noreferrer" className="flex items-center">
+              <Image
+                src="/Ambassadors Logo Black.png"
+                alt="Ambassador Logo"
+                width={120}
+                height={120}
+                className="object-contain"
+              />
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">

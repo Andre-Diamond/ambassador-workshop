@@ -30,16 +30,16 @@ export default function Home() {
                   <div className="cardano-logo-container">
                     <div className="cardano-logo">
                       <Image
-                        src="/Cardano-RGB_Logo-Icon-Black.png"
-                        alt="Cardano Logo"
-                        width={80}
-                        height={80}
+                        src="/Ambassador Logo White.png"
+                        alt="Ambassador Logo"
+                        width={160}
+                        height={160}
                         className="cardano-official-logo"
                       />
                     </div>
                   </div>
                   <div className="title-text">
-                    <h1 className="main-title">Cardano Ambassador Workshop</h1>
+                    <h1 className="main-title">Workshop BERLIN</h1>
                     <h2 className="sub-title">Summit pre & side event for cardano ambassadors</h2>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ export default function Home() {
                     <div>
                       <h4 className="berlin-heading text-lg text-black mb-4">VENUE DETAILS</h4>
                       <p className="berlin-body text-gray-700 leading-relaxed mb-6">
-                        Learn more about Projektraum Drahnsdorf, where we host the workshop and accomodate everyone.
+                        Learn more about Projektraum Drahnsdorf, where we host the workshop and accommodate everyone.
                       </p>
                       <a 
                         href="https://www.projektraum-drahnsdorf.de/" 

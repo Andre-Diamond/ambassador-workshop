@@ -130,15 +130,15 @@ body {
 }
 
 .cardano-logo-container {
-  background: #ffffff;
+  background: transparent;
   border-radius: 0;
   height: 100%;
-  width: 220px;
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  border: 3px solid #ffffff;
+  border: none;
   margin-right: 2rem;
 }
 
@@ -153,8 +153,8 @@ body {
 .cardano-official-logo {
   width: auto;
   height: auto;
-  max-width: 90px;
-  max-height: 90px;
+  max-width: 300px;
+  max-height: 300px;
   object-fit: contain;
 }
 
