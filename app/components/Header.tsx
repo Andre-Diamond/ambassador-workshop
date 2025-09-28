@@ -24,6 +24,9 @@ export default function Header() {
             <Link href="/agenda" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
               AGENDA
             </Link>
+            <Link href="/attendees" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
+              ATTENDEES
+            </Link>
             <Link href="/gallery" className="berlin-mono text-black hover:bg-black hover:text-white transition-all duration-200 px-3 py-2 border-2 border-transparent hover:border-black">
               GALLERY
             </Link>
