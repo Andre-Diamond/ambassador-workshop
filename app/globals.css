@@ -315,6 +315,32 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+/* Masonry Grid for Agenda */
+.masonry-grid {
+  columns: 1;
+  column-gap: 1.5rem;
+  break-inside: avoid;
+}
+
+@media (min-width: 768px) {
+  .masonry-grid {
+    columns: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .masonry-grid {
+    columns: 3;
+  }
+}
+
+.masonry-grid > * {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  width: 100%;
+}
+
 /* Industrial Accents */
 .berlin-accent {
   position: relative;

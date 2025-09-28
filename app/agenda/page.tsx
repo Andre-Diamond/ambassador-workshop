@@ -26,14 +26,12 @@ export default function Agenda() {
   ]
 
   const renderDay1 = () => (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-start justify-items-stretch">
+    <div className="masonry-grid">
       <SessionCard 
         time="09:00 - 17:00"
         category="Keynote"
         title="Arrival"
         description="Ambassadors arriving at the venue, cosy & cool"
-        speaker="None"
-        location="Venue"
       />
 
       <SessionCard 
@@ -41,24 +39,19 @@ export default function Agenda() {
         category="Networking"
         title="Dinner"
         description="Ambassador Dinner at the venue"
-        host="Event Team"
-        location="Lobby"
       />
     </div>
   )
 
   const renderDay2 = () => (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-start justify-items-stretch">
+    <div className="masonry-grid">
       <div className="glass-card p-6">
         <div className="flex items-center justify-between mb-4">
           <span className="time-badge text-sm px-3 py-1 rounded-full">08:00 - 10:00</span>
           <span className="text-sm text-gray-600">Foodies</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Breakfast</h3>
-        <p className="text-gray-700 mb-3">Getting the ballies filled & coffeein injected to kick off the day</p>
         <div className="text-sm text-gray-600">
-          <p>Host: Event Team</p>
-          <p>Location: Venue</p>
         </div>
       </div>
 
@@ -67,11 +60,10 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">10:30 - 12:30</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Workshop #1</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #1 | DRep incentives</h3>
+        <p className="text-gray-700 mb-3">DReps play an essential role in Cardano and it's success, we will dive into if, why and how DReps should be incentivized in Cardanos Governance model.</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: To be announced</p>
-          <p>Location: To be announced</p>
+          <p>Speaker: Simon</p>
         </div>
       </div>
 
@@ -80,11 +72,10 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">13:00 - 14:00</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Workshop #2</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #2 | CIPs and the Cardano Community</h3>
+        <p className="text-gray-700 mb-3">The CIP process, which generates Cardano's standards, is the result of community engagement: much more so than is generally known. Join the longest serving CIP editor to learn about the human factors & history of CIPs, with insights you can bring back to your own communities and projects.</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: To be announced</p>
-          <p>Location: To be announced</p>
+          <p>Speaker: Robert Phair</p>
         </div>
       </div>
 
@@ -94,10 +85,7 @@ export default function Agenda() {
           <span className="text-sm text-gray-600">Foodies</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Lunch</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: To be announced</p>
-          <p>Location: To be announced</p>
         </div>
       </div>
 
@@ -107,10 +95,7 @@ export default function Agenda() {
           <span className="text-sm text-gray-600">Chill & Connect</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Chill & Connect</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: none</p>
-          <p>Location: Venue</p>
         </div>
       </div>
 
@@ -119,11 +104,10 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">16:00 - 17:30</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Workshop #3</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #3 | Cardano Multi Assets Treasury (CMAT)</h3>
+        <p className="text-gray-700 mb-3">What if the Cardano Treasury would not only hold Ada ? Join us and find out. A  workshop where we discuss and ideate on a Cardano Multi Asset Treasury</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: To be announced</p>
-          <p>Location: To be announced</p>
+          <p>Hinson Wong & Felix Weber</p>
         </div>
       </div>
 
@@ -133,27 +117,21 @@ export default function Agenda() {
           <span className="text-sm text-gray-600">Foodies</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Dinner</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
         <div className="text-sm text-gray-600">
-          <p>Host: Event Team</p>
-          <p>Location: Venue</p>
         </div>
       </div>
     </div>
   )
 
   const renderDay3 = () => (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-start justify-items-stretch">
+    <div className="masonry-grid">
       <div className="glass-card p-6">
         <div className="flex items-center justify-between mb-4">
           <span className="time-badge text-sm px-3 py-1 rounded-full">08:00 - 10:00</span>
           <span className="text-sm text-gray-600">Foodies</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Breakfast</h3>
-        <p className="text-gray-700 mb-3">Getting the ballies filled & coffeein injected to kick off the day</p>
         <div className="text-sm text-gray-600">
-          <p>Host: Event Team</p>
-          <p>Location: Venue</p>
         </div>
       </div>
 
@@ -162,11 +140,10 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">10:30 - 12:30</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Workshop #4</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #4 | CF & Ambassadors</h3>
+        <p className="text-gray-700 mb-3">A Session dedicated to discuss topics regarding the Ambassadors Program and the Cardano Foundation </p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: To be announced</p>
-          <p>Location: To be announced</p>
+          <p>Speaker: CF Team</p>
         </div>
       </div>
 
@@ -175,11 +152,10 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">13:00 - 14:00</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Workshop #5</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #5 | CF & Ambassadors</h3>
+        <p className="text-gray-700 mb-3">A second session dedicated to discuss topics regarding the Ambassadors Program and the Cardano Foundation </p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: To be announced</p>
-          <p>Location: To be announced</p>
+          <p>Speaker: CF Team</p>
         </div>
       </div>
 
@@ -189,10 +165,7 @@ export default function Agenda() {
           <span className="text-sm text-gray-600">Foodies</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Lunch</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: To be announced</p>
-          <p>Location: To be announced</p>
         </div>
       </div>
 
@@ -202,10 +175,7 @@ export default function Agenda() {
           <span className="text-sm text-gray-600">Chill & Connect</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Chill & Connect</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: none</p>
-          <p>Location: Venue</p>
         </div>
       </div>
 
@@ -214,11 +184,10 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">16:00 - 17:30</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Workshop #6</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #6 | Onboarding Locals </h3>
+        <p className="text-gray-700 mb-3">What Ambassadors would we be if we wouldnt onboard the Venue Owners and locals to Cardano ? A session where we will introduce locals to the Cardano Blockchain ecosystem</p>
         <div className="text-sm text-gray-600">
-          <p>Speaker: To be announced</p>
-          <p>Location: To be announced</p>
+          <p>Speaker: Present Ambassadors</p>
         </div>
       </div>
 
@@ -228,27 +197,21 @@ export default function Agenda() {
           <span className="text-sm text-gray-600">Foodies</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Dinner</h3>
-        <p className="text-gray-700 mb-3">To be announced</p>
         <div className="text-sm text-gray-600">
-          <p>Host: Event Team</p>
-          <p>Location: Venue</p>
         </div>
       </div>
     </div>
   )
 
   const renderDay4 = () => (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 items-start justify-items-stretch">
+    <div className="masonry-grid">
       <div className="glass-card p-6">
         <div className="flex items-center justify-between mb-4">
           <span className="time-badge text-sm px-3 py-1 rounded-full">08:00 - 10:00</span>
           <span className="text-sm text-gray-600">Foodies</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Breakfast</h3>
-        <p className="text-gray-700 mb-3">Getting the ballies filled & coffeein injected to kick off the day</p>
         <div className="text-sm text-gray-600">
-          <p>Host: Event Team</p>
-          <p>Location: Venue</p>
         </div>
       </div>
 
@@ -261,7 +224,6 @@ export default function Agenda() {
         <p className="text-gray-700 mb-3">Wrapping up the workshop and sharing reflections</p>
         <div className="text-sm text-gray-600">
           <p>Host: Everyone</p>
-          <p>Location: Room A</p>
         </div>
       </div>
 
@@ -271,10 +233,8 @@ export default function Agenda() {
           <span className="text-sm text-gray-600">Closure</span>
         </div>
         <h3 className="text-xl font-semibold text-black mb-2">Closing & Farewell</h3>
-        <p className="text-gray-700 mb-3">Final words, future opportunities, and farewell reception</p>
+        <p className="text-gray-700 mb-3">Final words, and check out. Everyone leaving and heading over to Berlin for the Summit. See you there again everyone </p>
         <div className="text-sm text-gray-600">
-          <p>Host: Event Team</p>
-          <p>Location: Lobby</p>
         </div>
       </div>
     </div>
