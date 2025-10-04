@@ -5,18 +5,18 @@ import Image from 'next/image'
 export default function Attendees() {
   const ambassadors = [
     { handle: '@andreassosilo', url: 'https://x.com/andreassosilo' },
-    { handle: '@BeatriceAnihiri', url: 'https://x.com/BeatriceAnihiri' },
+    { handle: '@Beatrice', url: 'https://x.com/BeatriceAnihiri' },
     { handle: '@COSDpool', url: 'https://x.com/COSDpool' },
+    { handle: '@Darlington', url: 'https://x.com/profd2004' },
     { handle: '@ddlezu', url: 'https://x.com/ddlezu' },
-    { handle: '@HinsonSIDAN', url: 'https://x.com/HinsonSIDAN' },
-    { handle: '@Jennycitalinda', url: 'https://x.com/Jennycitalinda' },
+    { handle: '@Felix', url: 'https://x.com/meshsdk' },
+    { handle: '@Hinson', url: 'https://x.com/HinsonSIDAN' },
+    { handle: '@Jenny', url: 'https://x.com/Jennycitalinda' },
     { handle: '@Lido_Phuffy', url: 'https://x.com/Lido_Phuffy' },
-    { handle: '@LidoNation', url: 'https://x.com/LidoNation' },
-    { handle: '@meshsdk', url: 'https://x.com/meshsdk' },
-    { handle: '@Seomon4u', url: 'https://x.com/Seomon4u' },
+    { handle: '@Seomon', url: 'https://x.com/Seomon4u' },
     { handle: '@Straightpool4', url: 'https://x.com/Straightpool4' },
-    { handle: '@Tim38300817', url: 'https://x.com/Tim38300817' },
-    { handle: '@YoramBenzvi', url: 'https://x.com/YoramBenzvi' }
+    { handle: '@Thomas', url: 'https://x.com/ThomasNordicADA' },
+    { handle: '@Yoram', url: 'https://x.com/YoramBenzvi' }
   ]
 
   const cardanoFoundation: { handle: string; url: string }[] = [

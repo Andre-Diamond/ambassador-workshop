@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Berlin Industrial Style - Bold Typography */
+
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-weight: 500;
@@ -20,7 +20,7 @@ body {
   letter-spacing: -0.02em;
 }
 
-/* Aggressive Typography Classes */
+
 .berlin-title {
   font-family: 'Inter', sans-serif;
   font-weight: 900;
@@ -66,7 +66,7 @@ body {
   color: #ffffff;
 }
 
-/* Text color overrides for cards */
+
 .berlin-card .berlin-body {
   color: #666666;
 }
@@ -79,7 +79,7 @@ body {
   color: #000000;
 }
 
-/* Header text color overrides */
+
 .berlin-header .berlin-mono {
   color: #000000;
 }
@@ -88,7 +88,7 @@ body {
   color: #000000;
 }
 
-/* Side panel text color overrides */
+
 .fixed.bg-white .berlin-heading {
   color: #000000 !important;
 }
@@ -101,7 +101,7 @@ body {
   color: #000000 !important;
 }
 
-/* Side panel dark card text overrides */
+
 .fixed.bg-white .berlin-card-dark .berlin-heading {
   color: #ffffff !important;
 }
@@ -114,7 +114,7 @@ body {
   color: #ffffff !important;
 }
 
-/* Cardano Title Banner - Clean Style */
+
 .cardano-title-banner {
   display: flex;
   align-items: center;
@@ -187,7 +187,7 @@ body {
   letter-spacing: 0.1em;
 }
 
-/* Berlin Cards - Industrial Design */
+
 .berlin-card {
   background: #ffffff;
   border: 3px solid #000000;
@@ -216,7 +216,7 @@ body {
   box-shadow: 9px 9px 0px #666666;
 }
 
-/* Berlin Buttons - Aggressive Style */
+
 .berlin-button-primary {
   background: #000000;
   color: #ffffff;
@@ -269,7 +269,7 @@ body {
   box-shadow: 6px 6px 0px #666666;
 }
 
-/* Berlin Header - Industrial Navigation */
+
 .berlin-header {
   background: #ffffff;
   border-bottom: 4px solid #000000;
@@ -281,14 +281,14 @@ body {
   min-height: 80px;
 }
 
-/* Berlin Footer - Clean Industrial */
+
 .berlin-footer {
   background: #111111;
   border-top: 4px solid #ffffff;
   color: #ffffff;
 }
 
-/* Time Badge - Monospace Industrial */
+
 .time-badge {
   background: #000000;
   color: #ffffff;
@@ -308,14 +308,14 @@ body {
   border-color: #000000;
 }
 
-/* Berlin Grid System */
+
 .berlin-grid {
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-/* Masonry Grid for Agenda */
+
 .masonry-grid {
   columns: 1;
   column-gap: 1.5rem;
@@ -341,7 +341,7 @@ body {
   width: 100%;
 }
 
-/* Industrial Accents */
+
 .berlin-accent {
   position: relative;
 }
@@ -357,7 +357,7 @@ body {
   z-index: -1;
 }
 
-/* Responsive Typography */
+
 @media (max-width: 768px) {
   .cardano-title-banner {
     flex-direction: column;
@@ -387,7 +387,7 @@ body {
   }
 }
 
-/* Clean backgrounds */
+
 .bg-white {
   background-color: #ffffff !important;
 }
@@ -396,26 +396,26 @@ body {
   background-color: #000000 !important;
 }
 
-/* Ensure content hierarchy */
+
 body > * {
   position: relative;
   z-index: 1;
 }
 
-/* Layout consistency */
+
 .min-h-screen {
   min-height: 100vh;
   min-height: 100dvh;
 }
 
-/* Header positioning */
+
 .berlin-header nav {
   position: relative;
   transform: translateZ(0);
   will-change: transform;
 }
 
-/* Hide scrollbar */
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -425,7 +425,7 @@ body > * {
   display: none;
 }
 
-/* Selection styling */
+
 ::selection {
   background: #ffffff;
   color: #000000;
@@ -436,7 +436,7 @@ body > * {
   color: #000000;
 }
 
-/* Legacy class mappings for existing components */
+
 .glass-card {
   @apply berlin-card;
 }
