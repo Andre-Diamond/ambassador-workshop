@@ -76,6 +76,13 @@ export default function Home() {
                 <p className="berlin-mono text-black leading-relaxed">
                   CARDANO AMBASSADORS<br />
                 </p>
+                <div className="mt-6">
+                  <div className="bg-black text-white px-4 py-2 mx-auto w-fit">
+                    <span className="berlin-mono text-xs font-bold !text-white">
+                      MORE
+                    </span>
+                  </div>
+                </div>
               </div>
 
               {/* Where Section */}
@@ -97,6 +104,13 @@ export default function Home() {
                     Dorfstraße 17, 15938 Drahnsdorf
                   </p>
                 </div>
+                <div className="mt-6">
+                  <div className="bg-black text-white px-4 py-2 mx-auto w-fit">
+                    <span className="berlin-mono text-xs font-bold !text-white">
+                      MORE
+                    </span>
+                  </div>
+                </div>
               </div>
 
               {/* When Section */}
@@ -114,6 +128,13 @@ export default function Home() {
                 </div>
                 <div className="space-y-2">
                   <p className="berlin-mono text-black leading-relaxed">NOVEMBER 7-10, 2025</p>
+                </div>
+                <div className="mt-6">
+                  <div className="bg-black text-white px-4 py-2 mx-auto w-fit">
+                    <span className="berlin-mono text-xs font-bold !text-white">
+                      MORE
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -190,6 +211,16 @@ export default function Home() {
                         </li>
                       </ul>
                     </div>
+
+                    <div className="mt-8">
+                      <a 
+                        href="/attendees" 
+                        className="berlin-button-primary block text-center"
+                        onClick={closeWindow}
+                      >
+                        Attendees
+                      </a>
+                    </div>
                   </div>
                 )}
 
@@ -229,9 +260,29 @@ export default function Home() {
 
                     <div>
                       <h4 className="berlin-heading text-lg text-black mb-4">ACCESSIBILITY</h4>
-                      <p className="berlin-body text-gray-700 leading-relaxed">
+                      <p className="berlin-body text-gray-700 leading-relaxed mb-6">
                         Easily accessible via public transportation. By train you take the RE8 to get to Drahnsdorf train station. A 5 minute walk from there brings you to the venue
                       </p>
+                      
+                      <div className="space-y-4">
+                        <a 
+                          href="https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=BER%20Berlin%20Brandenburg%20Airport&zo=Drahnsdorf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DBER%20Berlin%20Brandenburg%20Airport%40X%3D13511947%40Y%3D52364808%40U%3D80%40L%3D8011201%40B%3D1%40p%3D1759186607%40i%3DU%C3%97008084407%40&zoid=A%3D1%40O%3DDrahnsdorf%40X%3D13581253%40Y%3D51915393%40U%3D80%40L%3D8011409%40B%3D1%40p%3D1759360780%40i%3DU%C3%97008004358%40&sot=ST&zot=ST&soei=8011201&zoei=8011409&hd=2025-11-07T12:00:10&hza=D&hz=%5B%5D&ar=false&s=true&d=false&vm=00,01,02,03,04,05,06,07,08,09&fm=false&bp=false&dlt=false&dltv=false"
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="berlin-button-secondary block text-center"
+                        >
+                          FROM AIRPORT
+                        </a>
+                        
+                        <a 
+                          href="https://int.bahn.de/en/buchung/fahrplan/suche#sts=true&so=Berlin%20Hbf&zo=Drahnsdorf&kl=2&r=13:16:KLASSENLOS:1&soid=A%3D1%40O%3DBerlin%20Hbf%40X%3D13369549%40Y%3D52525589%40U%3D80%40L%3D8011160%40B%3D1%40p%3D1759186607%40i%3DU%C3%97008065969%40&zoid=A%3D1%40O%3DDrahnsdorf%40X%3D13581253%40Y%3D51915393%40U%3D80%40L%3D8011409%40B%3D1%40p%3D1759360780%40i%3DU%C3%97008004358%40&sot=ST&zot=ST&soei=8011160&zoei=8011409&hd=2025-11-07T12:00:10&hza=D&hz=%5B%5D&ar=false&s=true&d=false&vm=00,01,02,03,04,05,06,07,08,09&fm=false&bp=false&dlt=false&dltv=false"
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="berlin-button-secondary block text-center"
+                        >
+                          FROM BERLIN MAIN STATION
+                        </a>
+                      </div>
                     </div>
 
                     <div>
