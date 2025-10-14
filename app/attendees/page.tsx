@@ -22,8 +22,8 @@ export default function Attendees() {
   ]
 
   const cardanoFoundation: { handle: string; url: string }[] = [
-    { handle: '@indi_gital', url: 'https://x.com/indi_gital' },
-    { handle: '@Josi_sndnc', url: 'https://x.com/Josi_sndnc' }
+    { handle: 'Sebastian', url: 'https://x.com/indi_gital' },
+    { handle: 'Josefine', url: 'https://x.com/Josi_sndnc' }
   ]
 
   return (
