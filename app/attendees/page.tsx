@@ -14,6 +14,7 @@ export default function Attendees() {
     { handle: 'Felix', url: 'https://x.com/meshsdk' },
     { handle: 'Hinson', url: 'https://x.com/HinsonSIDAN' },
     { handle: 'Jenny', url: 'https://x.com/Jennycitalinda' },
+    { handle: 'Kinson', url: 'https://x.com/KinsonGOV' },
     { handle: 'Loyd', url: 'https://x.com/radioastro' },
     { handle: 'Mike', url: 'https://x.com/Hornan7' },
     { handle: 'Simon', url: 'https://x.com/Seomon4u' },
