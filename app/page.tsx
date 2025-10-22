@@ -305,7 +305,7 @@ export default function Home() {
                 {activeWindow === 'when' && (
                   <div className="space-y-8">
                     <div>
-                      <h3 className="berlin-heading text-2xl mb-6 text-black">NOVEMBER 7 - 10, 2024</h3>
+                      <h3 className="berlin-heading text-2xl mb-6 text-black">NOVEMBER 7 - 10, 2025</h3>
                       <div className="berlin-card-dark p-6 text-center mb-6">
                         <p className="berlin-mono text-white text-lg">
                           4 DAYS<br />
