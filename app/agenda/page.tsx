@@ -140,8 +140,8 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">10:30 - 12:30</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Session #4 | CF & Ambassadors</h3>
-        <p className="text-gray-700 mb-3">A Session dedicated to discuss topics regarding the Ambassadors Program and the Cardano Foundation </p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #4 | Cardano Ambassador Program - The future</h3>
+        <p className="text-gray-700 mb-3">Explore what’s next for the Cardano Ambassador Program as it evolves beyond Phase 4 into its future iterations. This session looks at how the program is redefining community impact through new governance models, innovative reward systems, and stronger collaboration tools. Together, we’ll discuss how ambassadors continue to shape Cardano’s global mission, building a resilient, connected, and future ready ecosystem. </p>
         <div className="text-sm text-gray-600">
           <p>Speaker: CF Team</p>
         </div>
@@ -152,8 +152,8 @@ export default function Agenda() {
           <span className="time-badge text-sm px-3 py-1 rounded-full">13:00 - 14:00</span>
           <span className="text-sm text-gray-600">Workshop</span>
         </div>
-        <h3 className="text-xl font-semibold text-black mb-2">Session #5 | CF & Ambassadors</h3>
-        <p className="text-gray-700 mb-3">A second session dedicated to discuss topics regarding the Ambassadors Program and the Cardano Foundation </p>
+        <h3 className="text-xl font-semibold text-black mb-2">Session #5 | Onboarding the Next Wave: Building Communities and Driving On-Chain Transactions</h3>
+        <p className="text-gray-700 mb-3">This session explores how to onboard new individuals, communities, and enterprises into the Cardano ecosystem while boosting real on-chain activity. We’ll discuss strategies for amplifying community growth, engaging new users, and supporting organizations to adopt Cardano for real-world use cases. Together, we’ll look at how coordinated education, incentives, and partnerships can turn participation into measurable on-chain impact. </p>
         <div className="text-sm text-gray-600">
           <p>Speaker: CF Team</p>
         </div>
